@@ -89,7 +89,7 @@ menu-dns
 }
 
 function check-dns(){
-    bash <(curl -sSL https://raw.githubusercontent.com/givpn/sshws/master/menu/ceknet.sh)
+    bash <(curl -sSL https://raw.githubusercontent.com/dpvpn09/sshws/main/menu/ceknet.sh)
 read -n 1 -s -r -p "   Press any key to back on menu"
 menu
 }
